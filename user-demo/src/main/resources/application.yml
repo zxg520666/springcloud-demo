@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-zxg
+server:
+  port: 8801
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8888/eureka
+    register-with-eureka: true
+    fetch-registry: true
